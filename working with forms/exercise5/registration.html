@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet", href="registration.css">
+    <title>Fieldset</title>
+</head>
+<body>
+    <div class="formcontainer">   
+        <form action="#" class="loginform">
+            <h2>Registration</h2>  
+            <fieldset>
+                <legend>Login information</legend>
+                <p class="field">
+                    <label for="username">Username</label>
+                    <input type="text", name="username", id="username">
+                    <p class="myidea">example:pa4kata@gmail.com</p>
+                </p>
+                <p class="field">
+                    <label for="password">Password</label>
+                    <input type="password", name="password", id="password">
+                    <p class="myidea">minimum 6 charachters letters and numbers and at least one special characher</p> 
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Additional information</legend>
+                <p class="field">
+                    <label for="date">Date of Birth</label>
+                    <input type="date", name="date", id="date" placeholder="dd.mm.yyyy">
+                    <p class="myidea">example: 03.10.1987</p> 
+                </p>
+                <input type="submit" value="Login">
+            </fieldset>
+           
+        </form>
+    </div>
+</body>
+</html>

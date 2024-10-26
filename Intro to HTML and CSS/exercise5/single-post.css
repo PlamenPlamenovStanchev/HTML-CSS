@@ -1,0 +1,9 @@
+.blog-post {
+    background-color: bisque;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.blog-comments {
+    background-color: rgb(47, 143, 143);
+}

@@ -1,0 +1,12 @@
+body {
+color: aqua;
+}
+h1 {
+    color: red
+}
+#title2 {
+    text-align: center;
+}
+.underline {
+    text-decoration: line-through;
+}

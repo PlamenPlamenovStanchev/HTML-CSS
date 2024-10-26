@@ -1,0 +1,32 @@
+body {
+    border: 2px solid green;
+    margin: 0;
+    padding: 20px 0px;
+}
+section {
+    border: 2px solid black;
+    max-width: 900px;
+    margin:auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header, main, article, footer {
+    border: 2px solid blue;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.main {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.header > header,
+.main > main,
+.article >article,
+.footer > footer {
+    margin-bottom: 20px;
+}

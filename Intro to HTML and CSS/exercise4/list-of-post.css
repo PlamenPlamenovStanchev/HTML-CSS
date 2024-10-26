@@ -1,0 +1,9 @@
+.blog-post article header p {
+    color: silver;
+}
+.blog-post time {
+    font-style: italic;
+}
+span.Author {
+    font-weight: bold;
+}

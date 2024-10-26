@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+    body {
+        background: silver;
+    }
+div {
+    width: 70%;
+    margin: 250px auto;
+    padding: 20px;
+    display: block;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: white;
+}
+.field {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.subscribe {
+    padding: 10px;
+    background: orange;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    width: 15%;
+    
+}
+.name {
+    padding: 10px;
+    background: silver;
+    color: grey;
+    border-radius: 3px;
+    display: flex;
+    width: 15%;
+   
+}
+.email {
+    padding: 10px;
+    background: silver;
+    color: grey;
+    border-radius: 3px;
+    display: flex;
+    width: 70%;
+    
+}

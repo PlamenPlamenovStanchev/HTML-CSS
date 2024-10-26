@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.headerSection {
+    width: 100%;
+}
+.menu {
+    background: hsl(341deg 77% 76%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+
+}
+.menu ul li {
+    color: #fff;
+}
+.navigation {
+    
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+        border-radius: 30px;
+        border: 0;
+        width: 70%;
+        align-items: center;
+        list-style-type: none;
+        left: 200px;
+        top: 150px;
+        right: -200px;
+        position: absolute;
+        
+    
+}
+.background {
+    background-image: url(images/carousel-1.jpg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.background p {
+    color: #fff;
+}
+.background h1 {
+    color: white;
+    font-size: 2rem;
+}
+.learnMore {
+    display: block;
+    border-radius: 30px;
+    background: hsl(341deg 77% 76%);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.information {
+    background:hsl(201deg 77% 88%) ;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 40px;
+}
+.learnMoreBlue {
+    display: block;
+    border-radius: 10px;
+    background:hsl(202, 40%, 61%) ;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.footerMenu{
+    background: #fff;
+    display: flex;
+    margin: auto;
+}
+.footerMenu h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.font-awesome {
+    border-radius: 50%;
+    background: #fff;
+    color:hsl(201deg 77% 88%) ;
+    display: flex;
+    flex-direction: row;
+}
+.getIntouch .openingHours {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+.getIntouch .openingHours h3 {
+    font-weight: 700;
+}
+.getIntouch .openingHours p {
+    opacity: 0.7;
+}
+.photo {
+    flex: 0 0 33%;
+    height: auto
+}
