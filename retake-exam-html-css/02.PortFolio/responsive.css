@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) {
+    nav ul {
+      display: none;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+    }
+  
+  .checkbtn {
+      display: block;
+    }
+    .logo {
+        font-size: 1.5rem;
+        order: -10000;
+    }
+  
+    #check:checked ~ ul {
+      display: block;
+      position: absolute;
+      background-color: #38cccc;
+      top: 60px;
+      right: 80px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  
+    #check:checked ~ ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    #check:checked ~ ul li a {
+      color: white;
+    }
+ 
+    }
+    .site-header {
+        height: 300px;
+        position: relative;
+      }
+    
+     .site-header > i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+     .site-header > h1 {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+     .about-header {
+        display: flex;
+        align-items: center;
+      }
+    
+     .about-header i {
+        margin-right: 20px;
+      }
+    
+     .about {
+        display: flex;
+      }
+    
+     .about-header {
+        width: 20%;
+      }
+    
+     .about-text {
+        width: 80%;
+      }
+  }

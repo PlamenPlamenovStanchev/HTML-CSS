@@ -1,0 +1,218 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.section-one {
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    align-self: center;
+}
+
+.logo {
+    font-family: 'Oleo Script', serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(45, 223, 163);
+    color: #ccc;
+    width: 120px; 
+    height: 30px; 
+    font-size: 28px;
+    margin-right: 25px;
+}
+
+.by-softuni {
+    font-weight: bold;
+    color: black;
+    align-self: flex-start;
+    margin-right: 750px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #fffcfc;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    width: 80%;
+    align-self: center;
+}
+
+.left-content {
+    flex: 1;
+    margin: 30px 50px;
+}
+.left-content h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.left-content p{
+    font-size: 1.7rem;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+}
+.right-content button {
+    margin: 10px 0;
+}
+.right-content button {
+    width: 300px; 
+    height: 75px; 
+    font-size: 25px;
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+  }
+.white {
+    color: black;
+    background-color: #ccc;
+}
+.bottom-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bottom-container {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.image-box {
+    background-color: #ccc;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.text-box h3 {
+    font-size: 18px;
+}
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    gap: 25px;
+  }
+  
+  .left-side {
+    flex: 1;
+    width: 33%; 
+    margin-left: 10%;
+  }
+  
+  .right-side {
+    flex: 2;
+    width: 66%; 
+    margin-right: 10%;
+  }
+  
+.images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+button {
+    background-color: rgba(10, 103, 209, 0.89);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.first{
+    margin-top: 20px;
+}
+.section-one{
+    margin-top: 250px;
+}
+
+.section-three {
+    background-color: grey;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-item {
+    background-color: grey;
+    padding: 20px;
+    width: 23%;
+    margin-left: 50px;
+}
+a {
+    text-decoration: underline;
+    color: inherit;
+    opacity: 0.5;
+}
+.container-item .icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    gap: 8px;
+    font-size: 2rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
